@@ -11,15 +11,13 @@ a {
 img {
     max-width: 100%;
     max-height: 100%;
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
 
 .nav1 {
     position: sticky;
     display: flex;
     justify-content: center;
-    box-shadow: 0 1px 4px #008fd0;
+    box-shadow: #008fd0;
     width: 100%;
     height: 65px;
 }
@@ -28,8 +26,6 @@ img {
     width: 1200px;
     display: flex;
     justify-content: space-between;
-    position: inherit;
-    height: 100%;
 }
 
 .navigation-picture {
@@ -54,7 +50,12 @@ img {
     font-family: helvetica;
     font-weight: 400;
 }
-
+.navigation-link img{
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
 .navigation-link:hover {
     background-color: #e5f4fb;
 }
@@ -80,11 +81,9 @@ img {
     flex-direction: column;
     padding: 10px;
     background-color: #e5f4fb;
-    justify-items: center;
 }
 #headerBox{
  width: 1200px;
- justify-content: space-between;
 }
 #titleRow {
     justify-content: space-between;
@@ -97,7 +96,16 @@ img {
     display: flex;
     flex-direction: row;
     font-size: 14px;
-    padding-right: 200px;
+}
+#userProfile{
+    display: flex;
+    padding-left: 5px;
+    text-decoration: underline;
+    align-self: center;
+}
+#userProfile img{
+    margin-bottom: 20px;
+
 }
 #middle {
     display: flex;
@@ -107,30 +115,34 @@ img {
 
 #oceanCreditCard {
     color: #008fd0;
+    font-size: 25px;
 }
 
 #bigHeader {
     color: #242a56;
-
+    font-size: 40px;
 }
 
-#checkMarks {
+.checkMarks {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .check {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    margin: 10px 0;
 }
 
 .checkImage {
     height: 24px;
-    padding-top: 15px;
     margin-right: 8px;
 }
 
 .checkDesc {
+    font-size: 18px;
     color: #008fd0;
 }
 
@@ -143,7 +155,7 @@ img {
     background-color: #242a56;
     flex-direction: column;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 250px;
     padding: 15px 25px;
     border-radius: 15px;
     box-sizing: border-box;
@@ -217,6 +229,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
+    padding-bottom: 20px;
 }
 .infoCard{
     display: flex;
@@ -264,18 +277,21 @@ img {
 }
 #reviewMid{
     display: flex;
+    text-align: center;
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
 }
 #leftArrow{
-    
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     background-color: white;
-    padding: 15px;
+    padding: 7px;
 }
 #review{
     height: 100%;
@@ -284,8 +300,8 @@ img {
 }
 #reviewImage{
     box-sizing: border-box;
-    width: 30%;
-    padding: 20px 30px 20px 30px;
+    width: 27%;
+    padding: 10px 30px 10px 30px;
     display: flex;
     align-items: center;
 }
@@ -293,24 +309,24 @@ img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 #reviewInfo{
     display: flex ;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px ;
+    margin-top: 10px ;
     color: #008fd0;
 
 }
 #time{
     display: flex ;
-    padding-left: 300px;
+    padding-left: 320px;
     align-items: center;
     flex-direction: row;
 }
 #feefo{
-    margin-bottom: 20px
+    margin-bottom: 50px
 }
 #reviewContent{
     margin-top: 30px;
@@ -362,7 +378,7 @@ img {
     padding-right: 30px;
 }
 .clickableGuide img{
-    border-radius: 10%;
+    border-radius: 5%;
 }
 .clickableGuide p{
     color: #242a56;
