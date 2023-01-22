@@ -97,11 +97,8 @@ img {
     display: flex;
     flex-direction: row;
     font-size: 14px;
+    padding-right: 200px;
 }
-#userProfile{
-
-}
-
 #middle {
     display: flex;
     flex-direction: row;
@@ -281,27 +278,28 @@ img {
     padding: 15px;
 }
 #review{
+    height: 100%;
     margin: auto 50px;
     text-align: left;
 }
 #reviewImage{
     box-sizing: border-box;
-    width: 27%;
-    padding: 30px;
+    width: 30%;
+    padding: 20px 30px 20px 30px;
     display: flex;
     align-items: center;
 }
 #reviewText {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     padding-right: 30px;
 }
 #reviewInfo{
     display: flex ;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px ;
+    margin-top: 20px ;
     color: #008fd0;
 
 }
@@ -310,4 +308,64 @@ img {
     padding-left: 300px;
     align-items: center;
     flex-direction: row;
+}
+#feefo{
+    margin-bottom: 20px
+}
+#reviewContent{
+    margin-top: 30px;
+}
+#guidesSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#guidesRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    align-content: flex-start;
+    padding-right: 800px;
+    width: 100%;
+    background-color: #efefef;
+}
+.guidesRowText{
+    display: flex;
+    padding: 15px;
+    padding-right: 25px;
+}
+#guides{
+    display: flex;
+    border-bottom: solid;
+    height: 100%;
+    color: #008fd0;
+    text-align: center;
+    border-bottom-color: #008fd0;
+}
+#guidesPictures{
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.guidesPicturesRow{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 70%;
+    align-content: space-between;
+}
+.guide{
+    padding-right: 30px;
+}
+.clickableGuide img{
+    border-radius: 10%;
+}
+.clickableGuide p{
+    color: #242a56;
+    font-weight: bold;
+    font-family: "open_sansbold", sans-serif;
 }
