@@ -8,6 +8,7 @@ a {
     text-decoration: none;
     color: #242a56;
 }
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -50,12 +51,14 @@ img {
     font-family: helvetica;
     font-weight: 400;
 }
-.navigation-link img{
+
+.navigation-link img {
     height: 30px;
     width: 30px;
     padding-right: 10px;
     padding-left: 5px;
 }
+
 .navigation-link:hover {
     background-color: #e5f4fb;
 }
@@ -82,9 +85,11 @@ img {
     padding: 10px;
     background-color: #e5f4fb;
 }
-#headerBox{
- width: 1200px;
+
+#headerBox {
+    width: 1200px;
 }
+
 #titleRow {
     justify-content: space-between;
     color: #242a56;
@@ -92,21 +97,25 @@ img {
     letter-spacing: -.61px;
     display: flex;
 }
+
 #userAccount {
     display: flex;
     flex-direction: row;
     font-size: 14px;
 }
-#userProfile{
+
+#userProfile {
     display: flex;
     padding-left: 5px;
     text-decoration: underline;
     align-self: center;
 }
-#userProfile img{
+
+#userProfile img {
     margin-bottom: 20px;
 
 }
+
 #middle {
     display: flex;
     flex-direction: row;
@@ -222,42 +231,48 @@ img {
 }
 
 #checkArea:hover {
-    background-color: #006400  ;
+    background-color: #006400;
 }
-#end{
+
+#end {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
     padding-bottom: 20px;
 }
-.infoCard{
+
+.infoCard {
     display: flex;
     flex-direction: row;
     border-radius: 8px;
     align-content: space-between;
     justify-content: flex-start;
     background-color: white;
-    width: 100% ;
+    width: 100%;
     margin-right: 20px;
 }
-.infoImage{
+
+.infoImage {
     box-sizing: border-box;
     width: 25%;
     padding: 20px;
     display: flex;
     align-items: center;
 }
-.infoText{
+
+.infoText {
     margin: 20px;
 }
-.infoTitle{
+
+.infoTitle {
     margin: 0;
     color: #242a56;
     font-size: 24px;
     letter-spacing: -.2px;
 }
-#reviewSection{
+
+#reviewSection {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -267,22 +282,26 @@ img {
     background-color: #008fd0;
 
 }
-#reviewsTitle{
+
+#reviewsTitle {
     color: white;
 }
-#reviewsDescription{
+
+#reviewsDescription {
     color: white;
     text-align: center;
     margin-bottom: 30px;
 }
-#reviewMid{
+
+#reviewMid {
     display: flex;
     text-align: center;
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
 }
-#leftArrow{
+
+#leftArrow {
     height: 60px;
     width: 60px;
     box-sizing: border-box;
@@ -293,51 +312,60 @@ img {
     background-color: white;
     padding: 7px;
 }
-#review{
+
+#review {
     height: 100%;
     margin: auto 50px;
     text-align: left;
 }
-#reviewImage{
+
+#reviewImage {
     box-sizing: border-box;
     width: 27%;
     padding: 10px 30px 10px 30px;
     display: flex;
     align-items: center;
 }
+
 #reviewText {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding-right: 10px;
 }
-#reviewInfo{
-    display: flex ;
+
+#reviewInfo {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10px ;
+    margin-top: 10px;
     color: #008fd0;
 
 }
-#time{
-    display: flex ;
+
+#time {
+    display: flex;
     padding-left: 320px;
     align-items: center;
     flex-direction: row;
 }
-#feefo{
+
+#feefo {
     margin-bottom: 50px
 }
-#reviewContent{
+
+#reviewContent {
     margin-top: 30px;
 }
-#guidesSection{
+
+#guidesSection {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-#guidesRow{
+
+#guidesRow {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -347,12 +375,14 @@ img {
     width: 100%;
     background-color: #efefef;
 }
-.guidesRowText{
+
+.guidesRowText {
     display: flex;
     padding: 15px;
     padding-right: 25px;
 }
-#guides{
+
+#guides {
     display: flex;
     border-bottom: solid;
     height: 100%;
@@ -360,27 +390,32 @@ img {
     text-align: center;
     border-bottom-color: #008fd0;
 }
-#guidesPictures{
+
+#guidesPictures {
     display: flex;
     padding-top: 30px;
     flex-direction: column;
     align-items: center;
     justify-items: center;
 }
-.guidesPicturesRow{
+
+.guidesPicturesRow {
     display: flex;
     flex-direction: row;
     align-self: center;
     width: 70%;
     align-content: space-between;
 }
-.guide{
+
+.guide {
     padding-right: 30px;
 }
-.clickableGuide img{
+
+.clickableGuide img {
     border-radius: 5%;
 }
-.clickableGuide p{
+
+.clickableGuide p {
     color: #242a56;
     font-weight: bold;
     font-family: "open_sansbold", sans-serif;
